@@ -51,41 +51,23 @@ TOUR_SPEC_SEGMENTS:
 # spec keyed by <spec_segment>
 SPEC_SEGMENTS:
   escort:
-    SPEC: tour_scheduling_nonmandatory_escort.csv
-    COEFFICIENTS: tour_scheduling_nonmandatory_escort_coefficients.csv
-    compute_settings:
-      use_numexpr: true
-      use_bottleneck: false
+    'SPEC': tour_scheduling_nonmandatory_escort.csv
+    'COEFFICIENTS': tour_scheduling_nonmandatory_escort_coefficients.csv
   shopping:
-    SPEC: tour_scheduling_nonmandatory_shopping.csv
-    COEFFICIENTS: tour_scheduling_nonmandatory_shopping_coefficients.csv
-    compute_settings:
-      use_numexpr: true
-      use_bottleneck: false
+    'SPEC': tour_scheduling_nonmandatory_shopping.csv
+    'COEFFICIENTS': tour_scheduling_nonmandatory_shopping_coefficients.csv
   eatout:
-    SPEC: tour_scheduling_nonmandatory_eatout.csv
-    COEFFICIENTS: tour_scheduling_nonmandatory_eatout_coefficients.csv
-    compute_settings:
-      use_numexpr: true
-      use_bottleneck: false
+    'SPEC': tour_scheduling_nonmandatory_eatout.csv
+    'COEFFICIENTS': tour_scheduling_nonmandatory_eatout_coefficients.csv
   othdiscr:
-    SPEC: tour_scheduling_nonmandatory_othdiscr.csv
-    COEFFICIENTS: tour_scheduling_nonmandatory_othdiscr_coefficients.csv
-    compute_settings:
-      use_numexpr: true
-      use_bottleneck: false
+    'SPEC': tour_scheduling_nonmandatory_othdiscr.csv
+    'COEFFICIENTS': tour_scheduling_nonmandatory_othdiscr_coefficients.csv
   othmaint:
-    SPEC: tour_scheduling_nonmandatory_othmaint.csv
-    COEFFICIENTS: tour_scheduling_nonmandatory_othmaint_coefficients.csv
-    compute_settings:
-      use_numexpr: true
-      use_bottleneck: false
+    'SPEC': tour_scheduling_nonmandatory_othmaint.csv
+    'COEFFICIENTS': tour_scheduling_nonmandatory_othmaint_coefficients.csv
   social:
-    SPEC: tour_scheduling_nonmandatory_social.csv
-    COEFFICIENTS: tour_scheduling_nonmandatory_social_coefficients.csv
-    compute_settings:
-      use_numexpr: true
-      use_bottleneck: false
+    'SPEC': tour_scheduling_nonmandatory_social.csv
+    'COEFFICIENTS': tour_scheduling_nonmandatory_social_coefficients.csv
 
 ## alts preprocessor keyed by <spec_segment>
 #ALTS_PREPROCESSOR:
@@ -109,7 +91,3 @@ SPEC_SEGMENTS:
 #    DF: alt_tdd
 #
 DESTINATION_FOR_TOUR_PURPOSE: destination
-
-compute_settings:
-  use_numexpr: true
-  use_bottleneck: false

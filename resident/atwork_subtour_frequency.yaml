@@ -9,6 +9,3 @@ preprocessor:
     - land_use
     - tours
     - joint_tour_participants
-
-compute_settings:
-  fastmath: false
